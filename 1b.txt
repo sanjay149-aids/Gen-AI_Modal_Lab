@@ -1,0 +1,71 @@
+1. Zero-shot Prompting:
+Prompt:
+Meena has ₹500. She buys a book for ₹180 and a bag for ₹250. How much money is left?
+
+Output:
+Start with the total money: ₹500
+
+Subtract the cost of the book:
+₹500 − ₹180 = ₹320
+
+Now subtract the cost of the bag:
+₹320 − ₹250 = ₹70
+
+Final Answer: ₹70 left
+
+
+2. One-shot Prompting:
+Prompt:
+Example:
+Ravi has ₹300. He spends ₹100 and ₹50. Money left = 300 - 100 - 50 = ₹150.
+
+Now solve:
+Meena has ₹500. She buys a book for ₹180 and a bag for ₹250. How much money is left?
+
+Output:
+Money left = 500 - 180 - 250
+= 320 - 250
+= ₹70
+
+
+3. Few-shot Prompting:
+Prompt:
+Example 1:
+A has ₹400, spends ₹100 and ₹50 → left = ₹250
+
+Example 2:
+B has ₹600, spends ₹200 and ₹150 → left = ₹250
+
+Now solve:
+Meena has ₹500. She buys a book for ₹180 and a bag for ₹250. How much money is left?
+
+Output:
+Meena has ₹500, spends ₹180 and ₹250
+
+Money left = 500 - 180 - 250
+= 320 - 250
+= ₹70
+
+
+
+4. Chain-of-Thought (CoT) Prompting:
+Prompt:
+Meena has ₹500. She buys a book for ₹180 and a bag for ₹250.
+Let’s solve step by step.
+
+Reasoning:
+
+Step 1: Total spent = 180 + 250 = 430
+Step 2: Remaining money = 500 - 430 = 70
+
+Output:
+Your step-by-step reasoning is correct.
+
+Step 1: Total spent = 180 + 250 = 430
+Step 2: Remaining money = 500 - 430 = 70
+
+Final Answer: ₹70
+
+
+
+
